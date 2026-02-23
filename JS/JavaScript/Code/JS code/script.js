@@ -71,5 +71,4 @@ console.log(getGrade(55));*/
 
 }
 console.log(rps("rock","scissor"));*/
-//Loops-> repeat karne ko loop kahte hai
-//for while do-while forof forin foreach
+
