@@ -79,3 +79,28 @@ for(let i=1;i<101;i++){
     }
 }
 console.log(count);
+//q10
+for(let i=1;i<101;i++){
+  console.log(i);
+    if(i%7===0){
+        break;
+    }
+}
+//q11
+for(let i=1;i<21;i++){
+    if(i%3===0){
+        continue;
+    }
+    console.log(i);
+}
+//q12
+let count1=0;
+for(let i=1;i<101;i++){
+    if(i%2===1){
+        count1++;
+        console.log(i);
+    }
+    if(count1===5){
+        break;
+    }
+}
