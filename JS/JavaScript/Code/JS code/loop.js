@@ -104,3 +104,27 @@ for(let i=1;i<101;i++){
         break;
     }
 }
+//q13
+let totalLines = 5;
+
+// Outer loop: Lines ke liye (1 se 5 tak chalega)
+for (let i = 1; i <= totalLines; i++) {
+    
+    let row = ""; // Har nayi line ke liye ek khali string banate hain
+    
+    // Inner loop: Stars ke liye (1 se lekar 'i' tak chalega)
+    for (let j = 1; j <= i; j++) {
+        row += "*"; // Har baar ek star add karte jao
+    }
+    
+    // Jab inner loop khatam ho jaye, toh puri line print kar do
+    console.log(row);
+}
+//q14
+let num1=12345;
+let count2=0;
+while(num1>0){
+    count2++;
+    num1=Math.floor(num1/10);
+}
+console.log(count2);
