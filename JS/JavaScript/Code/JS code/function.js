@@ -76,3 +76,49 @@ function sayHi(name="Guest"){
   console.log("Hi",name);
 }
 sayHi();
+
+//closure
+function abcd(){
+  let val=0;
+  return function (){
+    console.log(val);
+  }
+}
+//IIFE
+(function init(){
+  console.log("Initialzed");
+})();
+//q
+greet();
+var greet=function (){
+  console.log("Hi");
+}
+//BMI Calculator
+function bmi(weight,height){
+    return weight/(height*height);
+}
+console.log(bmi(69,1.7).toFixed(2));
+//q
+function discountCalculator(discount){
+    return function (price){
+        return price-price*(discount/100);
+    };
+}
+let discounter=discountCalculator(10);
+console.log(discounter(200));
+//counter
+function counter(){
+  let count=0;
+  return function(){
+    count++;
+    return count;
+  }
+}
+let c=counter();
+console.log(c());
+
+//IIFE
+(function (){
+  const password="secret password";
+  console.log(password); // function ke andar vale hi only accesss ho skte hai 
+})();
