@@ -122,3 +122,5 @@ let result= 1+2*3+4**2; // 23
 let username;
 username=window.prompt("Enter your name :");
 console.log(username);
+
+
