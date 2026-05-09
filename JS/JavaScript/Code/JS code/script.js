@@ -124,3 +124,7 @@ username=window.prompt("Enter your name :");
 console.log(username);
 
 
+let num1=Number(window.prompt("Enter first number:"));
+let num2=Number(window.prompt("Enter second number:"));
+let sum=num1+num2;
+console.log(`The sum of ${num1} and ${num2} is ${sum}.`);
