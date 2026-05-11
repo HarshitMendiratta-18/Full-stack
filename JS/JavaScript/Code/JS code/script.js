@@ -149,3 +149,7 @@ z=Boolean(z);
 console.log(x, typeof x);
 console.log(y, typeof y);
 console.log(z, typeof z);
+
+let runs=100;
+runs+=50;
+console.log(runs);
