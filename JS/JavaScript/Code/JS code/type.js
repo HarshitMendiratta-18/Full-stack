@@ -9,3 +9,6 @@ console.log(food);
 let lightOn=false;
 lightOn=!lightOn;
 console.log(lightOn);
+let isLoggedIn=false;
+isLoggedIn=!isLoggedIn;
+console.log(isLoggedIn);
