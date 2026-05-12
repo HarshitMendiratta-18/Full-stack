@@ -157,3 +157,8 @@ console.log(runs);
 let food="Burger";
 food+=" and fries";
 console.log(food);
+// its called string concatenation when we use + operator to combine two strings.
+
+let isLoggedIn=false;
+isLoggedIn=!isLoggedIn;
+console.log(isLoggedIn);
