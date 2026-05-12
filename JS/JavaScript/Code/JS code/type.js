@@ -5,3 +5,7 @@ console.log(runs);
 let food="Burger";
 food+=" and fries";
 console.log(food);
+
+let lightOn=false;
+lightOn=!lightOn;
+console.log(lightOn);
