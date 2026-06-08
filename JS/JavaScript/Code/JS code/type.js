@@ -12,3 +12,7 @@ console.log(lightOn);
 let isLoggedIn=false;
 isLoggedIn=!isLoggedIn;
 console.log(isLoggedIn);
+
+let price=100;
+price-=20;
+console.log(price);
