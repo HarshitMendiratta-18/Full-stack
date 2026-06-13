@@ -65,3 +65,9 @@ console.log(!(5>3))
 console.log(!(5<3))
 console.log(!(5==5))
 console.log(!(5!=5))
+
+
+//ternary operator:
+let age=20;
+let canVote=age>=18 ? "Yes, you can vote" : "No, you cannot vote";
+console.log(canVote);
