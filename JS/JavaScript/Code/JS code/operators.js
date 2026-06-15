@@ -71,3 +71,10 @@ console.log(!(5!=5))
 let age=20;
 let canVote=age>=18 ? "Yes, you can vote" : "No, you cannot vote";
 console.log(canVote);
+
+
+
+let num1=10;
+let num2=20;
+let max=num1>num2 ? num1 : num2;
+console.log("The maximum number is: " + max);
