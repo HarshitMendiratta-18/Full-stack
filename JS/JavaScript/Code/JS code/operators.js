@@ -78,3 +78,52 @@ let num1=10;
 let num2=20;
 let max=num1>num2 ? num1 : num2;
 console.log("The maximum number is: " + max);
+
+let score=18;
+let message=score>=18?"Eligible for booking":"Not eligible for booking";
+console.log(message);
+
+let username="";
+let password="";
+let loginMessage=username && password ? "Login successful" : "Please enter username and password";
+console.log(loginMessage);
+
+
+//increment and decrement 
+let a=5;
+console.log(a);
+console.log(a++);
+console.log(a);
+console.log(++a);
+console.log(a);
+console.log("");
+let b1=7;
+console.log(b1)
+console.log(b1--);
+console.log(b1);
+console.log(--b1);
+console.log("");
+let c1=10;
+let result= c1++ + ++c1 -10;
+console.log("Result is:"+result);
+
+
+//Bitwise operator:
+// 0 and 1 ki form me numbers represent krna
+//imp:2's compliment 
+//shortcut trick: -(x+1)
+console.log(5&3);
+console.log(4&7);
+console.log(8|11);
+console.log(26|15);
+console.log(~3);
+console.log(~0);
+console.log(~(-5));
+
+//truthy and falsy values:
+//falsy value:false,undefined,null,0,-0,0n,"",NaN
+//truthy value:anything which is not false
+//Short circuiting in js refers tpo way logical operators evaluate expressions.It allows us to control thr flow and return values based on truthiness without writing full if statements.
+console.log(""||undefined||"harry"||0);
+console.log("sarthak"||123||null||0);
+console.log("rohan"&&null&&123&&0);
