@@ -199,3 +199,5 @@ if(usersChoice===1){
   }
 }
 
+let runs=300;
+runs>=300?console.log("You are a good player"):console.log("You need to improve your game");
