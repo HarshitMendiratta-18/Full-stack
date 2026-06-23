@@ -119,3 +119,13 @@ for(let i=1;i<=n;i++){
   }
   console.log(str);
 }
+
+//q8:
+let v=prompt("Enter the number of rows:");
+let str="";
+for(let i=1;i<=v;i++){
+  for(let j=1;j<=i;j++){
+    str=str+"*";
+  }
+  str=str+"\n";
+}
