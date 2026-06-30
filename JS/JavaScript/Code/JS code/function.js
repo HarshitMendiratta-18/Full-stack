@@ -74,3 +74,35 @@
 // },5000);
 
 //q3:
+// let calculatedprice=(price,discount)=>{
+//   let discountedprice=price-price*(discount/100);
+//   return discountedprice;
+// }
+// let result=calculatedprice(1000,10);
+// console.log(result);
+
+//q4:
+function username(fullname){
+  return "@" + fullname;
+}
+console.log(username("harshit"));
+
+//q5:
+function instruction(color){
+  if(color==='red'){
+    return "Stop";
+  } else if(color==='yellow'){
+    return "Ready";
+  } else if (color==='green'){
+    return "Go";
+  }else {
+    return "Invalid color";
+  }
+}
+console.log(instruction("red"));
+console.log(instruction("black"));
+
+
+
+
+
