@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Add User UI</title>
+</head>
+
+<body class="bg-[#111] text-white min-h-screen py-10">
+
+    <!-- Form -->
+    <div class="w-full flex justify-center">
+
+        <div class="w-[480px] bg-[#252525] border border-zinc-700 rounded-2xl p-8">
+
+            <h1 class="text-4xl font-bold text-center mb-10">
+                Add User
+            </h1>
+
+            <form>
+
+                <div class="mb-6">
+                    <label class="block mb-2 text-zinc-300 font-medium">
+                        Name
+                    </label>
+
+                    <input id="name"
+                        type="text"
+                        class="w-full bg-[#3a3a3a] border border-zinc-600 rounded-lg px-4 py-3 outline-none focus:border-blue-500 transition"
+                    >
+                </div>
+
+                <div class="mb-6">
+                    <label class="block mb-2 text-zinc-300 font-medium">
+                        Role
+                    </label>
+
+                    <input id="role"
+                        type="text"
+                        class="w-full bg-[#3a3a3a] border border-zinc-600 rounded-lg px-4 py-3 outline-none focus:border-blue-500 transition"
+                    >
+                </div>
+
+                <div class="mb-6">
+                    <label class="block mb-2 text-zinc-300 font-medium">
+                        Bio
+                    </label>
+
+                    <textarea id="bio"
+                        rows="4"
+                        class="w-full resize-none bg-[#3a3a3a] border border-zinc-600 rounded-lg px-4 py-3 outline-none focus:border-blue-500 transition"
+                    ></textarea>
+                </div>
+
+                <div class="mb-8">
+                    <label class="block mb-2 text-zinc-300 font-medium">
+                        Photo URL
+                    </label>
+
+                    <input id="photo"
+                        type="text"
+                        class="w-full bg-[#3a3a3a] border border-zinc-600 rounded-lg px-4 py-3 outline-none focus:border-blue-500 transition"
+                    >
+                </div>
+
+                <button
+                    class="w-full py-3 rounded-lg border border-zinc-600 hover:bg-white hover:text-black transition duration-300 font-semibold"
+                >
+                    Submit
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+    <!-- Cards -->
+    <div
+    id="cards"
+    class="max-w-7xl mx-auto mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-8"
+>
+
+        <!-- Card 1 -->
+        <div class="bg-[#252525] border border-zinc-700 rounded-2xl p-8 text-center hover:-translate-y-2 hover:shadow-2xl transition duration-300">
+
+            <img
+                src="https://i.pravatar.cc/300?img=12"
+                class="w-28 h-28 rounded-full object-cover border-[6px] border-zinc-600 mx-auto"
+            >
+
+            <h2 class="text-4xl font-bold mt-6">
+                John Doe
+            </h2>
+
+            <h4 class="text-zinc-300 text-xl mt-2">
+                Frontend Developer
+            </h4>
+
+            <p class="text-zinc-400 mt-5 leading-8 text-lg">
+                Loves building beautiful UIs and learning new technologies.
+            </p>
+
+        </div>
+
+        <!-- Card 2 -->
+        <div class="bg-[#252525] border border-zinc-700 rounded-2xl p-8 text-center hover:-translate-y-2 hover:shadow-2xl transition duration-300">
+
+            <img
+                src="https://i.pravatar.cc/300?img=32"
+                class="w-28 h-28 rounded-full object-cover border-[6px] border-zinc-600 mx-auto"
+            >
+
+            <h2 class="text-4xl font-bold mt-6">
+                Jane Smith
+            </h2>
+
+            <h4 class="text-zinc-300 text-xl mt-2">
+                Backend Engineer
+            </h4>
+
+            <p class="text-zinc-400 mt-5 leading-8 text-lg">
+                Enjoys solving complex problems and optimizing APIs.
+            </p>
+
+        </div>
+
+        <!-- Card 3 -->
+        <div class="bg-[#252525] border border-zinc-700 rounded-2xl p-8 text-center hover:-translate-y-2 hover:shadow-2xl transition duration-300">
+
+            <img
+                src="https://i.pravatar.cc/300?img=15"
+                class="w-28 h-28 rounded-full object-cover border-[6px] border-zinc-600 mx-auto"
+            >
+
+            <h2 class="text-4xl font-bold mt-6">
+                Alex Lee
+            </h2>
+
+            <h4 class="text-zinc-300 text-xl mt-2">
+                UI/UX Designer
+            </h4>
+
+            <p class="text-zinc-400 mt-5 leading-8 text-lg">
+                Passionate about user experience and clean design.
+            </p>
+
+        </div>
+
+    </div>
+    <script src="this.js"></script>
+
+</body>
+</html>
