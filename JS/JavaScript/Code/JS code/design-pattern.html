@@ -1,11 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Design-Pattern</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lazy Loading Images</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        img{
+            
+            transform:translateY(30px);
+            transition:all .5s ease;
+        }
+
+        img.loaded{
+            opacity:1;
+            transform:translateY(0);
+        }
+    </style>
+
 </head>
-<body>
-  <script src="design-pattern.js"></script>
+
+<body class="bg-black text-white">
+  <input
+    type="text"
+    placeholder="Type something..."
+    class="border p-2 m-5 rounded"
+/>
+
+    <section class="h-screen flex flex-col justify-center items-center">
+
+        <h1 class="text-6xl font-bold text-center">
+            Lazy Loading Images with
+            <br>
+            IntersectionObserver
+        </h1>
+
+        <p class="text-2xl text-gray-300 mt-20">
+            Scroll down 👇
+        </p>
+
+    </section>
+
+    <section class="space-y-[700px] pb-40">
+
+        <img
+            data-src="https://picsum.photos/id/1015/700/450"
+            class="mx-auto rounded-xl"
+            width="700"
+            height="450"
+        >
+
+        <img
+            data-src="https://picsum.photos/id/1025/700/450"
+            class="mx-auto rounded-xl"
+            width="700"
+            height="450"
+        >
+
+        <img
+            data-src="https://picsum.photos/id/1035/700/450"
+            class="mx-auto rounded-xl"
+            width="700"
+            height="450"
+        >
+
+        <img
+            data-src="https://picsum.photos/id/1045/700/450"
+            class="mx-auto rounded-xl"
+            width="700"
+            height="450"
+        >
+
+        <img
+            data-src="https://picsum.photos/id/1055/700/450"
+            class="mx-auto rounded-xl"
+            width="700"
+            height="450"
+        >
+
+    </section>
+
+<script src="design-pattern.js"></script>
+
 </body>
 </html>
