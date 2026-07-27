@@ -1,0 +1,4 @@
+typescript javascript ka better version hai 
+typescript me jyada features hai as compare to javascript.
+typescript me type safety hai but javascript me nahi, "type safety" mtlb ek baar variable me no. dala aur dusri baar text dala.
+node.js ke wjh se hi hamara code compile hoga typescript me javascript se.
