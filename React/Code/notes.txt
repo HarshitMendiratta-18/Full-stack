@@ -1,0 +1,52 @@
+React is javascript library, which is helpful in making the UI(Frontend) of the website
+developed by META.
+react is based on components based architecture,means all thins are break down in form of components.
+Library are the features to give to the particular website.(GSAP,Lenis,ReactJS)
+Framework :(NextJS,Angular)-> framework is basically inbuilt jisme ham jyada customization nahi kr skte jitna library me kr skte hai.
+export 2 types ke hote hai first one is named export ,second one is default export.
+default export me hamne jo export kiya hai whi export hoga,import krte wkt ham kuch bhi naam de skte hai.
+real dom means actual structure
+virtual dom real dom ki ek copy bana leta hai
+JSX:Javascript XML:HTML+JavaScript
+Vite ek bundler hai , ek type ka tool jisse hum various type ke folders bana skte hai.
+fragements are the empty tags in react
+eslint.config.js helps us in creating custom tools.
+in gitignore ham custom rules bana skte hai jo ham github pe code upload karenege toh usme na jaye .
+Components based architetcure matlab hame various types ke functions banane hote hai and unhe use karna hota hai.
+components ek chota sa piece of code jo kisi feature ke liye use ho rha hai.
+card.jsx jo banaya hai components me woh apne aap me ek fucntion hai.
+agr muje kisi variabl eko print karwana hai to muje variable ko {} me dalna padta hai.
+Props Dealing:parents kke through ham child me data bhejte hai and data hamesha upr se niche ki trf jata hai.
+structure two types ke hite hai feature based and atomic based.feature based me aap features ke form me chize use karte ho matlab ek saath poora but atomic me chize choti choti form me use hoti hai.we should use combination of both.
+Hooks: type of magical function jo ki alg a;g tasks ko karne ka kaam karte hai.
+Various types of hooks are : useState, useReducer,useEffect,useRef,useMemo,useContext,useCallback etc 
+useState hook me state manage karta hai.
+koi bhi event me koi value change hoti hai to usse state kahte hai , for eg: onclick krne pe mouse se click krne pe koi value chnage ho gyi toh dono ke bich ka difference (mouse se click krne se phle and mouse se click karne ke baad ) usse state kahte hai.
+useEffect:used in sidestack , like ek process chal rha hai and  muje dusra process side by side chalana hai to useEffect use karte hai.
+react ki ek prblm hai ki sab process use hota hua jay.
+useRef: kisi bhi DOM element ko sleect karne ka kaam karta hai .
+useContext global context ko manage karne ka kaam karta hai.
+useMemo and useCallback both used in optimization,unncessary re-renders avoid karne ke liye.
+useReducer: complex state managemnt ke liye(redux jaisa chota version)
+react chizo ko rerender nahi karta mtlb agr value same hai or same value hi return krayi hai toh ye kaam nhi krega kyuki state change nahi hui hai.
+localstorage means browser ki local memory.
+sessionstorage mtlb session ki storage  or ye tab tak chalegi jab tak session chal rha .session matlab jab tak browser open rakha hai jb tak data chalega but jaise hi browser band kara toh session band ho jayga.
+localstorage ke liye 4 methods hai :setItem,getItem,removeItem and clear.
+frontend and backend are connected with api.
+api is called application programming interface.
+frontend se hum request bhejte hai and backend se hame response milta hai and data hame database se milta hai.
+api call krne ke do methods hai:fetch and axios.
+in axios we have properties like get, patch and post and delete , patch means update and get means jo chaiye and post means basically backend side.
+routing in react :Routing in React is the process of mapping specific URL paths to corresponding functional components, allowing users to navigate between different views within a Single Page Application (SPA) without triggering a full page reload.  Since React is a UI library that does not support routing natively, developers typically use the React Router library to implement this client-side routing.
+react router me ek browser router hota hai jo moslty use hota hai and browsing me help krta hai routing me .ye client side pe work karta hai 
+ek hota hai hashrouter jisme # use krke routing ki jati hai and memory router me memory me store kra jata hai.
+react router dom se SPA bnta hai , spa means single page application
+agr hame react roter me kisi page me loading rokni ho to react router dom hame by default "Link" provide karta hai jisse reloading ruk jati hai.
+react me routes self closing tags hote hai agr ham nested route perform karna chte hai to hame routes ko self close ki jgh full atg banana <></> aise.
+Dynamic routing:mtlb ham route me kuch bhi dale woh change na ho usi pe rhe jispe hamne select kiya usse and us page pe hum kuch bhi likhenge toh woh show hoga hume.
+usenavigate hame kahi bhi navigate karne ki permission deta hai.
+
+jab bham bade apps  banate hai to wha data upr se niche ka process kafi dikt krta hai so wha pe ham data centralization use karte hai.
+Data centralization ka matlab data ek jagah par rakha hua hai and sab usse use kar pa rhe hai.and ye data centralization process hota hai context api ki help se krte hai.
+
+
