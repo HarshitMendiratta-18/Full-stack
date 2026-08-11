@@ -1,0 +1,15 @@
+body{
+  height: 200vh;
+  background: #111;
+  color: white;
+  cursor: none;
+}
+.cursor{
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border-radius: 50%;
+  position: fixed;
+  top:0;left: 0;
+  pointer-events: none;
+}
